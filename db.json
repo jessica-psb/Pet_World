@@ -1,0 +1,69 @@
+{
+  "produk" : {
+    "0" : {
+      "nama" : "Pedigree Dog Food 1kg",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/07/9212280_8bbbd0d0-9f7d-4dd7-adf6-6dfb245c635a_1155_1155.png",
+      "harga" : 89000
+    },
+	"1" : {
+      "nama" : "Whiskas Junior 500gr",
+      "gambar" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2017/6/6/9212280/9212280_070c3f8d-7861-4268-b39d-c174add2578f_355_355.jpg",
+      "harga" : 48000
+    },
+	"2" : {
+      "nama" : "Hill’s Urinary U/D Dog Dry Food",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2017/08/pd_k9_d_d_ud_o_o_n_orig_500_en.png",
+      "harga" : 250000
+    },
+	"3" : {
+      "nama" : "Travelling Box Ukuran Medium",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2016/02/voyageur.jpg",
+      "harga" : 185000
+    },
+	"4" : {
+      "nama" : "Alat Cukur Anjing Kucing",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/08/9212280_b938c5e3-b4c0-4b82-9407-28d6e14ca837_1000_1000.jpg",
+      "harga" : 130000
+    },
+	"5" : {
+      "nama" : "Vitakraft Premium 1 Kg",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/06/154.1.jpg",
+      "harga" : 77000
+    },
+	"6" : {
+      "nama" : "Obat Cair Anti Demodex 10ml",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/12/ADEX-10ML-1170x694-1.jpg",
+      "harga" : 50000
+    },
+	"7" : {
+      "nama" : "Cat Litter 10kg",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2016/02/pl-33_cat_litter_001.jpg",
+      "harga" : 94000
+    },
+	"8" : {
+      "nama" : "Makanan Hamster 600gr",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/07/Alice-Yum-Pop-Balanced-Nutri-Formula-300-gr-Makanan-Hamster.jpg",
+      "harga" : 62000
+    },
+	"9" : {
+      "nama" : "Makanan Kelinci 500 Gr",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/07/205.jpg",
+      "harga" : 25000
+    },
+	"10" : {
+      "nama" : "Kelinci Jolly Rabbit Food 1kg",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/07/204.jpg",
+      "harga" : 33000
+    },
+	"11" : {
+      "nama" : "Anti Infeksi Kulit Obat Jamur Koreng Kelinci",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/07/310.jpg",
+      "harga" : 17000
+    },
+	"12" : {
+      "nama" : "Shampo Pembersih Bulu 500ml",
+      "gambar" : "https://www.petshopindonesia.com/wp-content/uploads/2019/07/9212280_1ba3a5e0-9f90-4293-88cb-9ee9410873df_600_600.png",
+      "harga" : 140000
+    }
+  }
+}
