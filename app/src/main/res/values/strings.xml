@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pet World</string>
+    <string name="nama_error">Masukkan nama anda</string>
+    <string name="tel_error">Masukkan nomor telepon anda</string>
+    <string name="email_error">Masukkan alamat email anda</string>
+    <string name="invalid_email">Email ini tidak valid</string>
+    <string name="pass_error">Masukkan password anda</string>
+    <string name="invalid_password">Masukkan password minimal 6 karakter</string>
+    <string name="head1">Transaksi Saya</string>
+    <string name="head2">Profil Saya</string>
+</resources>

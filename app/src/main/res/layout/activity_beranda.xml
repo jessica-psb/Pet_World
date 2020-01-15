@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandaActivity">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselJumbo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        android:layout_alignParentTop="true"
+        app:strokeWidth="1dp"/>
+
+    <RelativeLayout
+        android:id="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/carouselJumbo"
+        android:background="@color/colorNav"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:focusable="false"
+            app:iconifiedByDefault="false"
+            app:queryHint="Cari ..." />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchbox"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

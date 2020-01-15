@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/ProfPic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ProfPic"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="Nama"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/header1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama"
+                android:background="@color/vpi__bright_foreground_disabled_holo_light"
+                android:padding="10dp"
+                android:text="Transaksi Saya"
+                android:textColor="@color/vpi__bright_foreground_disabled_holo_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:id="@+id/pesanan"
+                android:layout_below="@+id/header1"
+                android:background="@drawable/ripple_effect"
+                >
+                <ImageView
+                    android:id="@+id/orderConfirmImg"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_pesanan" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/orderConfirmImg"
+                    android:paddingLeft="20dp"
+                    android:text="Pesanan saya"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/chkoutNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/red_circle"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="0"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/garis1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/pesanan"
+                android:background="@color/vpi__bright_foreground_disabled_holo_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:id="@+id/sejarah"
+                android:layout_below="@+id/pesanan"
+                android:background="@drawable/ripple_effect"
+                >
+                <ImageView
+                    android:id="@+id/purchasedOrderImg"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_sejarah" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Sejarah pembelian"
+                    android:layout_toRightOf="@+id/purchasedOrderImg"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="20dp"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/garis2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/sejarah"
+                android:background="@color/vpi__bright_foreground_disabled_holo_light" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/garis2"
+                android:id="@+id/ulasan">
+                <ImageView
+                    android:id="@+id/feedbackImg"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_ulas" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/feedbackImg"
+                    android:paddingLeft="20dp"
+                    android:text="Ulasan produk"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/headerMyProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ulasan"
+                android:background="@color/vpi__bright_foreground_disabled_holo_light"
+                android:padding="10dp"
+                android:text="Akun Saya"
+                android:textColor="@color/vpi__bright_foreground_disabled_holo_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/garis3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/ulasan"
+                android:background="@color/vpi__bright_foreground_disabled_holo_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:id="@+id/pengaturan"
+                android:layout_below="@+id/headerMyProfile"
+                android:background="@drawable/ripple_effect"
+                >
+                <ImageView
+                    android:id="@+id/settingIcon"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_setting" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Pengaturan"
+                    android:layout_toRightOf="@+id/settingIcon"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="20dp"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/garis4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/pengaturan"
+                android:background="@color/vpi__bright_foreground_disabled_holo_light" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

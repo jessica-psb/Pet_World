@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg">
+        <ImageView
+            android:id="@+id/itemImg"
+            android:layout_margin="10dp"
+            android:layout_width="90dp"
+            android:layout_height="125dp"
+            android:src="@drawable/food1"/>
+        <RelativeLayout
+            android:id="@+id/detailItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/itemImg">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/barangText"
+                android:text="Heart Kitten Food"
+                android:layout_margin="10px"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 72.000"
+                android:id="@+id/hargaText"
+                android:layout_below="@id/barangText"
+                android:textColor="@color/harga"
+                android:textSize="16sp"
+                android:layout_margin="10px"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

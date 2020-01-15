@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558306271566",
+    "firebase_url": "https://pet-world-1608d.firebaseio.com",
+    "project_id": "pet-world-1608d",
+    "storage_bucket": "pet-world-1608d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558306271566:android:8c507a8657985875dd3e1f",
+        "android_client_info": {
+          "package_name": "com.example.petworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558306271566-6444sdh94ij5i3fljid58ke6ub0ps8h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petworld",
+            "certificate_hash": "97cccb119950ad8f4bb84136906c13d06086492b"
+          }
+        },
+        {
+          "client_id": "558306271566-outjn7olp1nqt8ijfauur1bk8p1anop3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq4Xa7Vak5L-GUjIsjs3kfHu3Olh13dGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558306271566-outjn7olp1nqt8ijfauur1bk8p1anop3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
