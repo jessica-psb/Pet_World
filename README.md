@@ -1,2 +1,2 @@
 # Pet_World
-# db.json database produk dari firebase
+# Simple pet shop app using android studio
